@@ -1,0 +1,39 @@
+{
+  "name": "c-track-project",
+  "version": "1.0.0",
+  "description": "Building an application that will handle consignment delivery to it various destination and ensure that the recipient recieved same in good condition and where there's service failure all parties will be notify",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.3.0",
+    "ioredis": "^5.8.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.15.3",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.10",
+    "nodemon": "^3.1.11",
+    "pino": "^10.1.0",
+    "pino-daily-rotate-file": "^0.0.1",
+    "pino-roll": "^4.0.0",
+    "puppeteer": "^24.30.0",
+    "sequelize": "^6.37.7",
+    "xlsx": "^0.18.5"
+  }
+}
